@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.baadal.MainActivity">
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#"
+        android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse"
+        android:textSize="48sp"
+        android:layout_marginTop="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bpm"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse"
+        android:visibility="visible"
+        android:layout_below="@+id/value"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

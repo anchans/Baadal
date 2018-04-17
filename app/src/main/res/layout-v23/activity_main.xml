@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.baadal.MainActivity">
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="#"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bpm"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@android:style/TextAppearance.Material.Large.Inverse"
+        android:visibility="visible"
+        android:layout_below="@+id/value"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bn"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Button"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+</RelativeLayout>
